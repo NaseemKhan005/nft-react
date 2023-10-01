@@ -11,14 +11,7 @@ const Featured = () => {
 
 			<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:gird-cols-5 gap-5">
 				{cardData.map((data) => (
-					<Card
-						key={data.id}
-						nftImg={data.nftImg}
-						userImg={data.userImg}
-						name={data.name}
-						title={data.title}
-						date={data.date}
-					/>
+					<Card key={data.id} data={data} />
 				))}
 			</div>
 		</div>

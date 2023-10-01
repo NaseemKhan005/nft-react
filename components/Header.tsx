@@ -30,7 +30,7 @@ const Header = () => {
 	return (
 		<div className="h-auto md:h-screen w-full flex flex-col md:flex-row md:items-center justify-between md:gap-5 gap-10 py-16 md:py-0">
 			<div className="flex flex-col gap-8">
-				<h1 className="text-4xl sm:text-[2.6rem] lg:text-[3.4rem] font-extrabold leading-snug">
+				<h1 className="text-[2.1rem] sm:text-[2.6rem] lg:text-[3.4rem] font-extrabold leading-snug">
 					Discover, <br />
 					collect, and sell <br />
 					extraordinary NFTs

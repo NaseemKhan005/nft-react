@@ -21,8 +21,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 					"bg-purple text-white relative overflow-x-hidden"
 				)}
 			>
-				<Navbar />
-				{children}
+				<main className="relative overflow-x-hidden">
+					<Navbar />
+					{children}
+				</main>
 			</body>
 		</html>
 	);

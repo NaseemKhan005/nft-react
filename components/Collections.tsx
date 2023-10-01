@@ -86,7 +86,7 @@ const Collections = () => {
 
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 				{CollectionsData.map((item) => (
-					<CollectionCard key={item.id} collection={...item} />
+					<CollectionCard key={item.id} collection={item} />
 				))}
 			</div>
 		</div>

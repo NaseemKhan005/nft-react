@@ -5,20 +5,12 @@ import { FaGem } from "react-icons/fa";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useState } from "react";
 
-import { cn } from "@/lib/utils";
-
-interface CardProps {
-	nftImg: string;
-	userImg: string;
-	name: string;
-	title: string;
-	date: string;
-}
-
 const currentYear = new Date().getFullYear();
 
-const card = ({ nftImg, userImg, name, title, date }: CardProps) => {
+const Card = ({ data}:any ) => {
 	const [heartClicked, setHeartClicked] = useState(false);
+	
+	const { nftImg, userImg, name, title, date } = data;
 
 	return (
 		<div className="bg-[#121636] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 border border-gray-100/10 rounded-xl">
@@ -85,4 +77,4 @@ const card = ({ nftImg, userImg, name, title, date }: CardProps) => {
 	);
 };
 
-export default card;
+export default Card;
