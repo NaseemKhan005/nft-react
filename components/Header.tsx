@@ -43,7 +43,7 @@ const Header = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center gap-3 sm:gap-5 relative overflow-hidden h-[26rem] md:h-full before:absolute before:top-0 before:left-0 before:w-full before:h-28 before:bg-gradient-to-b before:from-[#141040] before:to-transparent before:z-[1] after:absolute after:bottom-0 after:left-0 after:w-full after:h-20 after:bg-gradient-to-t after:from-[#141040] after:via-[#141040] after:to-transparent after:z-[1]">
+			<div className="flex items-center gap-3 sm:gap-5 relative overflow-hidden h-[26rem] md:h-full before:absolute before:top-0 before:left-0 before:w-full before:h-28 before:bg-gradient-to-b before:from-purple before:to-transparent before:z-[1] after:absolute after:bottom-0 after:left-0 after:w-full after:h-20 after:bg-gradient-to-t after:from-purple after:via-purple after:to-transparent after:z-[1]">
 				<div className="animate-slide-up">
 					<HeaderImages customClasses="w-32 sm:w-44 md:w-32 lg:w-36 h-[18rem] sm:h-[20rem] lg:h-[21rem]" />
 				</div>

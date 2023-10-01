@@ -12,7 +12,7 @@ const Navbar = () => {
 	const [showNavbar, setShowNavbar] = useState(false);
 
 	return (
-		<div className="backdrop-blur-xl bg-purple/10">
+		<div className="backdrop-blur-xl bg-purple/10 relative">
 			<div className="flex items-center justify-between container px-5 mx-auto py-4 md:py-6 before:absolute before:top-0 before:left-0 before:w-80 before:h-72 before:bg-gradient-to-br before:from-[#2A0A45] before:via-transparent before:to-transparent before:-z-10">
 				<div>
 					<h2 className="text-xl lg:text-2xl font-semibold">NFT MarketPlace</h2>

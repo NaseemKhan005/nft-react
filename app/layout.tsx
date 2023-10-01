@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
 
+import Navbar from "../components/Navbar";
 import { cn } from "../lib/utils";
 
 const mulish = Mulish({ subsets: ["latin"] });
@@ -14,7 +15,13 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
-			<body className={cn(mulish.className, "bg-purple text-white relative")}>
+			<body
+				className={cn(
+					mulish.className,
+					"bg-purple text-white relative overflow-x-hidden"
+				)}
+			>
+				<Navbar />
 				{children}
 			</body>
 		</html>
