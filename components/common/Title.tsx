@@ -3,7 +3,7 @@ import { BsFire } from "react-icons/bs";
 const Title = ({ title }: { title: string }) => {
 	return (
 		<div>
-			<h2 className="text-3xl font-bold flex items-baseline gap-3">
+			<h2 className="text-[1.5rem] md:text-3xl font-bold flex items-baseline gap-3">
 				<BsFire className="text-xl" />
 				<span>{title}</span>
 			</h2>

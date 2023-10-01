@@ -18,7 +18,7 @@ interface CardProps {
 const currentYear = new Date().getFullYear();
 
 const card = ({ nftImg, userImg, name, title, date }: CardProps) => {
-	const [heartClicked, setHeartClicked] = useState<boolean>(false);
+	const [heartClicked, setHeartClicked] = useState(false);
 
 	return (
 		<div className="bg-[#121636] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 border border-gray-100/10 rounded-xl">

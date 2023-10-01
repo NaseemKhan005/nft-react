@@ -22,7 +22,12 @@ const UserImg = ({ imgSrc, customClasses }: UserImgProps) => {
 	);
 };
 
-const Users = () => {
+interface UsersProps {
+	text1: string;
+	text2: string;
+}
+
+const Users = ({ text1, text2 }: UsersProps) => {
 	return (
 		<div className="flex relative gap-5">
 			<div className="flex items-center">
@@ -32,8 +37,8 @@ const Users = () => {
 				<UserImg imgSrc="/users/4.png" customClasses="left-9" />
 			</div>
 			<div className="ml-16">
-				<p className="text-xs">More Than</p>
-				<p className="font-semibold text-sm">40k+</p>
+				<p className="text-xs">{text1}</p>
+				<p className="font-semibold text-sm">{text2}</p>
 			</div>
 		</div>
 	);

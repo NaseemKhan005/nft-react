@@ -24,7 +24,7 @@ const Card = ({ icon, title, desc }: CardProps) => {
 
 const AboutCard = () => {
 	return (
-		<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-16">
+		<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-14 gap-x-5 py-16">
 			<Card
 				icon={<FaWallet className="text-4xl" />}
 				title="Set Up Your Wallet"

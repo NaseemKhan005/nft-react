@@ -3,6 +3,7 @@ import Featured from "../components/Featured";
 import Explore from "../components/Explore";
 import About from "../components/About";
 import Collections from "../components/Collections";
+import TopCreators from "@/components/TopCreators";
 
 export default function Home() {
 	return (
@@ -15,11 +16,12 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="container px-5 mx-auto flex flex-col gap-20">
+			<div className="container px-5 mx-auto flex flex-col gap-20 overflow-x-hidden">
 				<Featured />
 				<Explore />
 				<About />
 				<Collections />
+				<TopCreators />
 			</div>
 		</div>
 	);
