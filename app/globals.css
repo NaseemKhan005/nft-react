@@ -88,32 +88,27 @@
 }
 
 @keyframes slide-up {
-  from {
+  0% {
     transform: translateY(0);
   }
-  to {
-    transform: translateY(-100%);
+  50% {
+    transform: translateY(-50%);
   }
-}
-@keyframes slide-up2 {
-  from {
+  100% {
     transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0);
   }
 }
 
 .animate-slide-up1 {
-  animation: slide-up 50s linear 0s infinite;
+  animation: slide-up 300s linear 0s infinite;
   animation-play-state: running;
 }
 .animate-slide-up2 {
-  animation: slide-up2 70s linear 0s infinite;
+  animation: slide-up 400s linear 0s infinite;
   animation-play-state: running;
 }
 .animate-slide-up3 {
-  animation: slide-up 40s linear 0s infinite;
+  animation: slide-up 250s linear 0s infinite;
   animation-play-state: running;
 }
 
