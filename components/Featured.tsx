@@ -5,7 +5,7 @@ import Shine from "./common/Shine";
 
 const Featured = () => {
 	return (
-		<div className="flex flex-col gap-16 relative">
+		<div id="live-bidding" className="flex flex-col gap-16 relative">
 			<Title title="Featured NFTs" />
 			<Shine customClasses="-right-44 top-full" />
 

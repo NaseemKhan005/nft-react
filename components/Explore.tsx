@@ -4,7 +4,7 @@ import cardData from "../data/Explore/data.json";
 
 const Explore = () => {
 	return (
-		<div className="flex flex-col gap-16">
+		<div id="explore" className="flex flex-col gap-16">
 			<div>
 				<Title title="Explore NFTs" />
 			</div>

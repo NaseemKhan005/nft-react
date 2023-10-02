@@ -7,7 +7,10 @@ const Footer = () => {
 	const date = new Date().getFullYear();
 
 	return (
-		<footer className="bg-[url('/space.jpg')] bg-cover bg-bottom relative bg-opacity-10 mt-8 md:mt-10 lg:mt-16">
+		<footer
+			id="contact"
+			className="bg-[url('/space.jpg')] bg-cover bg-bottom relative bg-opacity-10 mt-8 md:mt-10 lg:mt-16"
+		>
 			<div className="flex flex-col gap-16 md:gap-20 lg:gap-32 z-[10] text-white relative pt-28 md:pt-40 md:pb-0 pb-8">
 				<div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#05092b]/70 via-[#05092b]/70 to-[#05092b] z-[0]" />
 				<div className="px-5 md:px-16 z-[1]">

@@ -81,7 +81,7 @@ const CollectionCard = ({
 
 const Collections = () => {
 	return (
-		<div className="flex flex-col gap-16 relative">
+		<div id="collections" className="flex flex-col gap-16 relative">
 			<Title title="Hot Collections" />
 
 			<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

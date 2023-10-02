@@ -36,28 +36,28 @@ const PlayBtnStyle =
 
 const Header = () => {
 	return (
-		<div className="relative h-auto md:h-screen w-full flex flex-col md:flex-row md:items-center justify-between md:gap-5 gap-10 py-16 md:py-0">
+		<div className="mt-16 md:mt-0 relative h-auto md:h-screen w-full flex flex-col md:flex-row md:items-center justify-between md:gap-5 gap-10 py-16 md:py-0">
 			<div className="absolute top-40 md:top-52 left-72 md:left-[35rem] Z-[1] w-10 h-24 rounded-full border border-white/30" />
 			<Image
 				src="/star1.png"
 				alt="star"
 				width={30}
 				height={30}
-				className="absolute top-16 left-20 Z-[1]"
+				className="absolute top-24 md:top-16 left-44 lg:left-20 -Z-[1]"
 			/>
 			<Image
 				src="/star2.png"
 				alt="star"
 				width={30}
 				height={30}
-				className="absolute bottom-32 left-96 Z-[1]"
+				className="absolute bottom-20 md:bottom-32 left-96 -Z-[1]"
 			/>
 			<Image
 				src="/star3.png"
 				alt="star"
 				width={30}
 				height={30}
-				className="absolute top-20 right-10 Z-[1]"
+				className="absolute top-72 md:top-20 right-10 -Z-[1]"
 			/>
 			<div className="flex flex-col gap-8">
 				<h1 className="text-[2.1rem] sm:text-[2.6rem] lg:text-[3.4rem] font-extrabold leading-snug">

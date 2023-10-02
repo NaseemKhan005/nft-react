@@ -7,7 +7,7 @@ import Shine from "./common/Shine";
 
 const About = () => {
 	return (
-		<div className="flex flex-col gap-32 relative">
+		<div id="about" className="flex flex-col gap-32 relative">
 			<div className="flex items-top flex-col md:flex-row gap-20 md:gap-10 lg:gap-32">
 				<div className="flex flex-col gap-8 w-full md:w-[80%]">
 					<p className="rounded-full py-3 px-8 bg-[#121636] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 border border-gray-100/10 w-fit flex items-center gap-2 text-sm">
