@@ -42,8 +42,8 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="flex md:items-center md:justify-between py-7 md:py-10 px-5 border-t border-white/10 text-[.8rem] z-[1] flex-col md:flex-row gap-5">
-					<ul className="flex items-center gap-8">
+				<div className="flex md:items-center md:justify-between py-7 md:py-10 px-5 border-t border-white/10 z-[1] flex-col md:flex-row gap-5">
+					<ul className="flex items-center gap-5 md:gap-8 text-sm">
 						{["Privacy policy", "Legal notice", "Terms of service"].map(
 							(link) => (
 								<li key={link}>
@@ -53,7 +53,7 @@ const Footer = () => {
 						)}
 					</ul>
 
-					<div className="">
+					<div className="text-xs md:text-[.8rem]">
 						<p className="text-white/50">
 							Copyright © {date} - All rights reserved by{" "}
 							<Link

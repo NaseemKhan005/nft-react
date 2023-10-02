@@ -11,7 +11,7 @@ const About = () => {
 			<div className="flex items-top flex-col md:flex-row gap-20 md:gap-10 lg:gap-32">
 				<div className="flex flex-col gap-8 w-full md:w-[80%]">
 					<p className="rounded-full py-3 px-8 bg-[#121636] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 border border-gray-100/10 w-fit flex items-center gap-2 text-sm">
-						<BsFire className="bg-gradients-to-r from-[#6625AE] to-[#7360FE] bg-clip-text text-transparent" />
+						<BsFire />
 						Digital Art
 					</p>
 					<h2 className="text-3xl md:text-4xl font-bold">Digital art works.</h2>

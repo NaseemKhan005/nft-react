@@ -30,7 +30,7 @@ const Navbar = () => {
 			id="home"
 			className="backdrop-blur-xl bg-purple/10 w-full z-50 fixed top-0 left-0"
 		>
-			<div className="flex items-center justify-between container px-5 mx-auto py-4 md:py-6">
+			<div className="flex items-center justify-between container px-5 mx-auto py-4 md:py-5">
 				<Link href={"/"}>
 					<h2 className="text-xl lg:text-2xl font-semibold">NFT MarketPlace</h2>
 				</Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
 				<div>
 					<ul
 						className={`${showNavbar === true ? "right-0" : "-right-full"}
-						 z-50 md:relative absolute top-0 md:left-0 w-full sm:w-80 md:w-auto duration-500 h-screen md:h-auto shadow-2xl md:shadow-none flex items-start md:items-center gap-3 md:gap-8 lg:gap-10 capitalize text-sm backdrop-blur-2xl bg-purple md:backdrop-none md:bg-transparent flex-col md:flex-row py-24 px-10 md:p-0 transition-all`}
+						 z-50 md:relative absolute top-0 md:left-0 w-full sm:w-80 md:w-auto duration-500 h-screen md:h-auto shadow-2xl md:shadow-none flex items-start md:items-center gap-3 md:gap-8 lg:gap-10 capitalize text-sm bg-purple md:bg-transparent flex-col md:flex-row py-28 px-10 md:p-0 transition-all`}
 					>
 						<Button
 							onClick={() => setShowNavbar(false)}
@@ -72,7 +72,7 @@ const Navbar = () => {
 								</Link>
 							</li>
 						))}
-						<div className="md:hidden mx-auto absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-3">
+						<div className="md:hidden mx-auto absolute bottom-24 left-1/2 -translate-x-1/2 flex gap-3">
 							{SocialLinks.map((link: any) => (
 								<SocialIcon key={link.id} data={link} />
 							))}
